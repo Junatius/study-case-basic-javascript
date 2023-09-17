@@ -20,7 +20,7 @@ class Circle {
 
 const Circle1 = new Circle(7);
 Circle1.getRadius();
-const Area1 = circle1.calculateArea();
-const Circumference1 = circle1.calculateCircumference(); 
+const Area1 = Circle1.calculateArea();
+const Circumference1 = Circle1.calculateCircumference(); 
 
 console.log(`Luas lingkarannya adalah ${Area1} dan Kelilingnya adalah ${Circumference1}`);

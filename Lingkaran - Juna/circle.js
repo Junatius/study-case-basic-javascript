@@ -18,8 +18,8 @@ class Circle {
     }
 }
 
-const circle1 = new Circle(7);
-circle1.getRadius();
+const Circle1 = new Circle(7);
+Circle1.getRadius();
 const Area1 = circle1.calculateArea();
 const Circumference1 = circle1.calculateCircumference(); 
 
